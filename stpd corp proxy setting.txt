@@ -1,0 +1,9 @@
+
+use proxy settings to access github.com
+[http "https://github.com"]
+	proxy = http://urlencode(domain\user:psswd)@corp.proxy:port/
+	sslVerify = false
+	
+links
+https://github.com/npm/npm/issues/2997 - url encode
+https://stackoverflow.com/questions/128035/how-do-i-pull-from-a-git-repository-through-an-http-proxy - debugging
